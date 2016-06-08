@@ -1,0 +1,27 @@
+name: TerrorPVP
+version: 1.0
+main: me.TerrorLT.TerrorPVP.Main
+description: A kit-based PVP plugin exclusive to Lonks. Enhanced Edition.
+author: TerrorLT
+commands:
+  tpvp:
+    description: Used for various functions.
+  kitpvp:
+    description: Teleports a player to the kitpvp world
+  spawn:
+    description: Sends a player to the spawn.
+  hub:
+    description:  Sends a player to the spawn.  
+  build:
+    description: Used to allow a player to build in the kitpvp world
+  tkspawn:
+    description: Used to return to the spawn (bypass safezone).
+  tkresetdbs:
+    description: Used to reset the database files.
+    permission: terrorpvp.db.reset
+  tksetchest:
+    description: Used to set the location of the loot chest.
+  tkgivekeys:
+    description: Used to give crate keys to a player.
+  tkcc:
+    description: Used to clear cooldowns.
